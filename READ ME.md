@@ -1,0 +1,47 @@
+# User API
+
+User API expose two endpoin, one for creating user account and one for searching for users, after running the application, API documentation can be found here http://localhost:8080/swagger-ui/index.html.
+
+## Getting Started
+
+### Runing User Api
+
+Begin by building the application by excuting this command
+
+```
+./mvnw clean install
+```
+
+Then run the appication by excuting this command
+
+```
+./mvnw spring-boot:run
+```
+
+### Reference Documentation
+
+For further reference, please consider the following sections:
+
+* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
+* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/3.1.3/maven-plugin/reference/html/)
+* [Create an OCI image](https://docs.spring.io/spring-boot/docs/3.1.3/maven-plugin/reference/html/#build-image)
+* [Spring Web](https://docs.spring.io/spring-boot/docs/3.1.3/reference/htmlsingle/index.html#web)
+* [Spring Boot DevTools](https://docs.spring.io/spring-boot/docs/3.1.3/reference/htmlsingle/index.html#using.devtools)
+* [Spring Data JPA](https://docs.spring.io/spring-boot/docs/3.1.3/reference/htmlsingle/index.html#data.sql.jpa-and-spring-data)
+* [Rest Repositories](https://docs.spring.io/spring-boot/docs/3.1.3/reference/htmlsingle/index.html#howto.data-access.exposing-spring-data-repositories-as-rest)
+* [Spring Web Services](https://docs.spring.io/spring-boot/docs/3.1.3/reference/htmlsingle/index.html#io.webservices)
+
+### Guides
+
+The following guides illustrate how to use some features concretely:
+
+* [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
+* [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
+* [Building REST services with Spring](https://spring.io/guides/tutorials/rest/)
+* [Accessing Data with JPA](https://spring.io/guides/gs/accessing-data-jpa/)
+* [Accessing JPA Data with REST](https://spring.io/guides/gs/accessing-data-rest/)
+* [Accessing Neo4j Data with REST](https://spring.io/guides/gs/accessing-neo4j-data-rest/)
+* [Accessing MongoDB Data with REST](https://spring.io/guides/gs/accessing-mongodb-data-rest/)
+* [Producing a SOAP web service](https://spring.io/guides/gs/producing-web-service/)
+
+
